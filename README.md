@@ -31,6 +31,12 @@ assumes you run the commands exactly as given, in which case, the BioConductor s
 seem to work. For example,
 
     install.packages("subMALDI-1.0.0.tar.gz", type = "source", dependencies = TRUE)
+    
+## Installing a development version
+
+A development version can be installed directly from github using the `remotes` package
+
+    remotes::install_github("wesleyburr/subMaldi")
 
 # Getting Started
 
